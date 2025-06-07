@@ -166,7 +166,6 @@ a:hover {
 /* Responsivo */
 @media screen and (max-width: 768px) {
   .content{
-    text-align:center
   }
   img.apresentação {
     width: 50vw;
