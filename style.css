@@ -168,4 +168,7 @@ a:hover {
   .content {
     display:grid;
   }
+  img.insta {
+    width: 50vw;
+  }
 }
