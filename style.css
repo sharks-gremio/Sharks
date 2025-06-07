@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #0a0a0a;
   color: #ffffff;
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
@@ -14,13 +14,13 @@ body {
 
 /* Neon azul */
 a {
-  color: #38b6ff;
+  color: #00ffff;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 a:hover {
-  color: #38b6ff;
-  text-shadow: 0 0 5px #38b6ff;
+  color: #00ccff;
+  text-shadow: 0 0 5px #00ffff;
 }
 
 /* Cabeçalho */
@@ -48,8 +48,8 @@ a:hover {
 }
 .navbar li a.active,
 .navbar li a:hover {
-  background-color: #38b6ff22;
-  border: 1px solid #38b6ff;
+  background-color: #00ffff22;
+  border: 1px solid #00ffff;
 }
 
 /* Conteúdo principal */
@@ -64,7 +64,7 @@ a:hover {
 .contact h1,
 .social h1 {
   font-size: 2.5rem;
-  color: #38b6ff;
+  color: #00ffff;
   margin-bottom: 20px;
 }
 .intro p,
@@ -81,13 +81,13 @@ a:hover {
 }
 .gallery-grid img {
   width: 100%;
-  border: 2px solid #38b6ff44;
+  border: 2px solid #00ffff44;
   border-radius: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 .gallery-grid img:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px #38b6ff;
+  box-shadow: 0 0 15px #00ffff;
 }
 
 /* Formulário de contato */
@@ -99,7 +99,7 @@ a:hover {
 .contact-form input,
 .contact-form textarea {
   padding: 10px;
-  border: 1px solid #38b6ff33;
+  border: 1px solid #00ffff33;
   background: #111;
   color: white;
   border-radius: 6px;
@@ -108,11 +108,11 @@ a:hover {
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #38b6ff;
-  box-shadow: 0 0 5px #38b6ff88;
+  border-color: #00ffff;
+  box-shadow: 0 0 5px #00ffff88;
 }
 .contact-form button {
-  background: #38b6ff;
+  background: #00ffff;
   color: #000;
   border: none;
   padding: 12px;
@@ -122,8 +122,7 @@ a:hover {
   transition: background 0.3s;
 }
 .contact-form button:hover {
-  background: #38b6ff;
-  filter: brightness(120%);
+  background: #00ccff;
 }
 
 /* Redes sociais */
@@ -137,14 +136,14 @@ a:hover {
 }
 .social-links li a {
   padding: 10px 20px;
-  border: 1px solid #38b6ff44;
+  border: 1px solid #00ffff44;
   border-radius: 8px;
   display: inline-block;
   transition: 0.3s;
 }
 .social-links li a:hover {
-  background: #38b6ff22;
-  box-shadow: 0 0 8px #38b6ff;
+  background: #00ffff22;
+  box-shadow: 0 0 8px #00ffff;
 }
 
 /* Rodapé */
@@ -166,8 +165,8 @@ a:hover {
 
 /* Responsivo */
 @media screen and (max-width: 768px) {
-  .content {
-    text-align: center;
+  .content{
+    text-align:center
   }
   img.apresentação {
     width: 50vw;
